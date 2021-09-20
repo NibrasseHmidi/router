@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Courgette&display=swap");
+
+* {
+  font-family: "Kufam", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  border-bottom: 10px solid #667db6;
+}
+Nav img {
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+button {
+  background-color: #294383;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+input {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+
+  border: none;
+  outline: none;
+  background: none;
+
+  background-color: rgba(238, 238, 238, 0.479);
+  border-radius: 20px;
+
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+
+  transition: 0.4s ease-out;
+}
+
+p {
+  font-size: 13px;
+}
+.footer {
+  height: 100px;
+  margin-top: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bar {
+  background-color: #117eb1e0;
+  height: 50px;
+  margin: 50px 0;
+  padding: 13px 500px;
+}
+.footer-bar span {
+  color: white;
+  background-color: #0e5175;
+  padding: 15px;
+  margin: 3px;
+}
+.footer-bas {
+  background-color: #0c415a;
+  height: 55px;
+  display: flex;
+  padding: 20px 400px;
+  color: white;
+}
+.footer-bas-copy {
+  margin: -10px 0;
+}
+
+span {
+  margin: 15px 30px;
+}
+.footer-flex {
+  display: flex;
+  margin: 50px;
+}
+.footer-flex p {
+  padding-left: 30px;
+  color: whitesmoke;
+  font-size: 13px;
+}
+
+.start {
+  font-size: 30px;
+}
+.css-star {
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+}
+.css-add {
+  display: flex;
+  margin-bottom: -60px;
+  margin-left: -100px;
+}
+
+.card-div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card-div-item {
+  margin: 50px 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.photo {
+  font-family: "Raleway", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 300px;
+  max-width: 250px;
+  max-height: 450px;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+figure.photo * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+figure.photo img {
+  max-width: 100%;
+  height: 500px;
+  position: relative;
+  opacity: 0.4;
+  display: block;
+}
+
+figure.photo figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+figure.photo h2 {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  display: inline-block;
+  background: #000000;
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  padding: 12px 5px;
+  margin: 0;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+figure.photo h2 span {
+  font-weight: 800;
+}
+
+figure.photo:before {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: "";
+  background: #ffffff;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(110deg) translateY(-50%);
+  transform: rotate(110deg) translateY(-50%);
+}
+
+figure.photo:hover img,
+figure.photo.hover img {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+figure.photo:hover h2,
+figure.photo.hover h2 {
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+}
+
+figure.photo:hover:before,
+figure.photo.hover:before {
+  -webkit-transform: rotate(110deg) translateY(-150%);
+  transform: rotate(110deg) translateY(-150%);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px 40px;
+  background-color: #000000;
+}
+
+.container-blog {
+  max-width: 120rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+  z-index: 200;
+}
+
+.content {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0.2rem 0.5rem 2rem rgba(245, 241, 241, 0.5);
+}
+
+.content-img {
+  flex: 1;
+}
+
+.content-img img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.content-text {
+  flex: 1.5;
+  padding: 4rem;
+}
+
+.content-text .content-title {
+  font-family: "Playfair Display", serif;
+  color: #222;
+  font-size: 50px;
+}
+
+.content-text .content-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #444;
+  margin: 0.5rem 0 2rem;
+}
+
+.content-text .content-paragraph {
+  font-size: 15px;
+  margin-bottom: 2rem;
+}
+
+.content-text .btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 120px;
+  border: 1px solid #444;
+  color: #444;
+}
+
+:after,
+:before {
+  box-sizing: border-box;
+}
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+  display: block;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.login-wrap {
+  width: 100%;
+  margin: auto;
+  max-width: 525px;
+  min-height: 670px;
+  position: relative;
+  background: url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg)
+    no-repeat center;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.login-html {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 90px 70px 50px 70px;
+  background: rgba(40, 57, 101, 0.9);
+}
+
+.login-html .sign-up-htm {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  transition: all 0.4s linear;
+}
+.login-html .sign-up,
+.login-form .group .check {
+  display: none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button {
+  text-transform: uppercase;
+}
+.login-html .tab {
+  font-size: 22px;
+  margin-right: 15px;
+  padding-bottom: 5px;
+  margin: 0 15px 10px 0;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+}
+
+.login-html .sign-up:checked + .tab {
+  color: #fff;
+  border-color: #1161ee;
+}
+.login-form {
+  min-height: 345px;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+.login-form .group {
+  margin-bottom: 15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button {
+  width: 100%;
+  color: #fff;
+  display: block;
+}
+.login-form .group .input,
+.login-form .group .button {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.login-form .group .label {
+  color: #aaa;
+  font-size: 12px;
+}
+.login-form .group .button {
+  background: #1161ee;
+}
+.login-form .group label .icon {
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  position: relative;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after {
+  content: "";
+  width: 10px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  transition: all 0.2s ease-in-out 0s;
+}
+.login-form .group label .icon:before {
+  left: 3px;
+  width: 5px;
+  bottom: 6px;
+  transform: scale(0) rotate(0);
+}
+.login-form .group label .icon:after {
+  top: 6px;
+  right: 0;
+  transform: scale(0) rotate(0);
+}
+.login-form .group .check:checked + label {
+  color: #fff;
+}
+.login-form .group .check:checked + label .icon {
+  background: #1161ee;
+}
+.login-form .group .check:checked + label .icon:before {
+  transform: scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after {
+  transform: scale(1) rotate(-45deg);
+}
+.login-html
+  .sign-in:checked
+  + .tab
+  + .sign-up
+  + .tab
+  + .login-form
+  .sign-in-htm {
+  transform: rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm {
+  transform: rotate(0);
+}
+
+.hr {
+  height: 2px;
+  margin: 60px 0 50px 0;
+  background: rgba(255, 255, 255, 0.2);
+}
+.foot-lnk {
+  text-align: center;
+}

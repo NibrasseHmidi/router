@@ -8,7 +8,10 @@ const Details = ({movies,match}) => {
          <div className="container-blog">
             <div className="content">
                 <div className="content-img">
-                    <img src={film.posterURL} alt=""/>
+                
+                   <iframe width="560" height="400" src={film.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                   
+                   </iframe>
                 </div>
                
                 <div className="content-text">
